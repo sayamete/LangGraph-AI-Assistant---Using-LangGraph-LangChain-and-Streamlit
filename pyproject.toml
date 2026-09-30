@@ -1,0 +1,27 @@
+[project]
+name = "langgraph-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "VIRAT", email = "sayanmete110@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "ddgs>=9.16.0",
+    "streamlit>=1.64.0",
+    "torchvision>=0.29.0",
+]
+
+[project.scripts]
+langgraph-project = "langgraph_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]

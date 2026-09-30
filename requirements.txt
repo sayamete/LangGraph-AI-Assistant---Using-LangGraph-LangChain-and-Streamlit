@@ -1,0 +1,12 @@
+langgraph
+langchain-community
+sentence-transformers
+python-dotenv
+pypdf
+langchain-groq
+langchain-text-splitters
+chromadb
+rank-bm25
+streamlit
+torchvision
+langgraph-checkpoint-memory
