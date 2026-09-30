@@ -27,7 +27,7 @@ def load_backend():
 
     notebook_path = (
         Path(__file__).parent
-        / "langgraph_project.ipynb"
+        / "code.ipynb"
     )
 
     if not notebook_path.exists():
