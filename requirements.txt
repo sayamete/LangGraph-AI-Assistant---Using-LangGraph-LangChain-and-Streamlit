@@ -1,12 +1,12 @@
+streamlit
 langgraph
+langchain
+langchain-core
 langchain-community
+langchain-groq
+langchain-text-splitters
 sentence-transformers
 python-dotenv
 pypdf
-langchain-groq
-langchain-text-splitters
 chromadb
 rank-bm25
-streamlit
-torchvision
-langgraph-checkpoint-memory
